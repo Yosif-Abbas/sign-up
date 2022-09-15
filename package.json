@@ -1,0 +1,25 @@
+{
+  "name": "sign-up",
+  "version": "1.0.0",
+  "description": "a sign-up form",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youssef12030/sign-up.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youssef12030/sign-up/issues"
+  },
+  "homepage": "https://github.com/youssef12030/sign-up#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.54.9"
+  }
+}
