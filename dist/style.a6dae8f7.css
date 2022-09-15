@@ -11,8 +11,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  color: #222;
-  font-family: "Oswald", sans-serif;
+  color: rgb(9, 140, 150);
+  font-family: "Noto Sans", sans-serif;
 }
 
 .container {
@@ -24,11 +24,96 @@ body {
 
 .form-container {
   background: #ddd;
-  box-shadow: 0 6px 6px #444;
+  border-bottom: 4px solid rgb(9, 140, 150);
+  border-right: 4px solid rgb(9, 140, 150);
+  border-left: 0.2px solid rgb(9, 140, 150);
+  border-top: 0.2px solid rgb(9, 140, 150);
+  border-radius: 5px;
+}
+
+.form-container form {
+  width: 500px;
+  font-size: 23px;
 }
 
 .header {
-  padding: 12px auto 12px 30px;
+  font-size: 1.6rem;
+  padding: 12px 0px 12px 30px;
+}
+
+.form-control {
+  position: relative;
+  margin-left: 50px;
+}
+
+.form-control input {
+  display: block;
+  margin-left: 50px;
+  padding-left: 8px;
+  font-size: 20px;
+  width: 79%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-control input:focus {
+  border: 2px solid #222;
+}
+
+.form-control i {
+  position: absolute;
+  visibility: hidden;
+}
+
+.form-control .fa-check {
+  color: #2EFF2E;
+}
+
+.form-control .fa-xmark {
+  color: #ff0033;
+}
+
+.form-control small {
+  margin-left: 50px;
+  color: #ff0033;
+  visibility: hidden;
+}
+
+.form-control .fa-solid {
+  top: 50%;
+  right: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 1em 0;
+}
+
+.btn-container button {
+  width: 80%;
+  font-size: 1.4rem;
+  padding: 8px 0;
+  cursor: pointer;
+  background: rgb(11, 172, 184);
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgb(9, 92, 112);
+}
+
+.btn-container button:hover {
+  background: rgb(15, 180, 190);
+}
+
+.btn-container button:focus {
+  box-shadow: none;
+  transform: translate(0, 2px);
+  transition: transform 0.1s;
+  transition: box-shadow 0.1s;
 }
 
 /*# sourceMappingURL=/style.a6dae8f7.css.map */
