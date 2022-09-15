@@ -7,11 +7,9 @@
 body{
     margin: 0;
     padding: 0;
-    background: rgb(216, 216, 216); 
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #68EDCB; 
     height: 100vh;
-    color: rgb(9, 140, 150);
+    color: black;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -23,17 +21,13 @@ body{
 }
 
 .form-container{
-    background: #ddd;
-    border-bottom: 4px solid rgb(9, 140, 150);
-    border-right: 4px solid rgb(9, 140, 150);
-    border-left: 0.2px solid rgb(9, 140, 150);
-    border-top: 0.2px solid rgb(9, 140, 150);
+    background: white;
     border-radius: 5px;
 }
 
 .form-container form{
     width: 500px;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .header{
@@ -55,11 +49,7 @@ body{
     height: 40px;
     outline: none;
     border: none;
-    border-radius: 5px;
-}
-
-.form-control input:focus{
-    border: 2px solid #222;
+    border-bottom: 1px solid #333
 }
 
 .form-control i{
@@ -97,16 +87,16 @@ body{
     font-size: 1.4rem;
     padding: 8px 0;
     cursor: pointer;
-    background:rgb(11, 172, 184);
+    background:#60C370;
     color: #fff;
     outline: none;
     border: none;
     border-radius: 5px;
-    box-shadow: 0 2px 2px rgb(9, 92, 112);
+    box-shadow: 0 2px 2px #60A080;
 }
 
 .btn-container button:hover{
-    background: rgb(15, 180, 190);
+    background: #60E075;
 }
 
 .btn-container button:focus{
